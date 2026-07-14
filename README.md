@@ -10,17 +10,17 @@ Repositório com as atividades práticas de SQL desenvolvidas durante o Bootcamp
 
 ## 📌 Sobre
 
-Este repositório reúne os scripts SQL desenvolvidos nas atividades práticas do módulo de Banco de Dados. Cada exercício aborda desde a criação de um banco de dados do zero até consultas e atualizações de registros, aplicando os principais comandos da linguagem SQL.
+Este repositório reúne os scripts SQL desenvolvidos nas atividades práticas do módulo de Banco de Dados. Cada exercício aborda desde a criação de um banco de dados do zero até consultas, relacionamentos entre tabelas e atualizações de registros, aplicando os principais comandos da linguagem SQL.
 
 ---
 
-## 📂 Atividades
+## 📂 Atividades — Fundamentos (CREATE, INSERT, SELECT, UPDATE)
 
 | Arquivo | Tema | Descrição |
 |---|---|---|
-| [`exe01.sql`](./exe01.sql) | 👥 RH | Cadastro de colaboradores de uma empresa |
-| [`exe02.sql`](./exe02.sql) | 🛒 E-commerce | Cadastro de produtos de uma loja virtual |
-| [`exe03.sql`](./exe03.sql) | 🎓 Escola | Cadastro de estudantes e suas notas |
+| [`Banco-de-Dados/exe01.sql`](./Banco-de-Dados/exe01.sql) | 👥 RH | Cadastro de colaboradores de uma empresa |
+| [`Banco-de-Dados/exe02.sql`](./Banco-de-Dados/exe02.sql) | 🛒 E-commerce | Cadastro de produtos de uma loja virtual |
+| [`Banco-de-Dados/exe03.sql`](./Banco-de-Dados/exe03.sql) | 🎓 Escola | Cadastro de estudantes e suas notas |
 
 Cada script contém, na seguinte ordem:
 1. Criação do banco de dados (`CREATE DATABASE`)
@@ -28,6 +28,21 @@ Cada script contém, na seguinte ordem:
 3. Inserção de registros (`INSERT INTO`)
 4. Consultas com condição (`SELECT ... WHERE`)
 5. Atualização de um registro (`UPDATE`)
+
+---
+
+## 📂 Atividades — Relacionamentos e JOIN
+
+| Arquivo | Tema | Descrição |
+|---|---|---|
+| [`Join/exe01.sql`](./Join/exe01.sql) | 🎮 Games Online | Personagens e classes de um jogo, relacionados por Foreign Key |
+| [`Join/exe02.sql`](./Join/exe02.sql) | 🍕 Pizzaria | Pizzas e categorias, relacionados por Foreign Key |
+
+Cada script contém:
+1. Criação do banco de dados e das duas tabelas relacionadas (`CREATE TABLE` + `FOREIGN KEY`)
+2. Inserção de registros em ambas as tabelas
+3. Consultas com condições (`WHERE`, `BETWEEN`, `LIKE`)
+4. Consultas unindo as tabelas (`INNER JOIN`)
 
 ---
 
